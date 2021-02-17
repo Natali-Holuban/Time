@@ -1,0 +1,41 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* font-family: 'Quicksand', sans-serif; */
+body{
+   font-family: 'Quicksand', sans-serif; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100vh;
+   color: wheat;
+}
+
+#time{
+   font-size: 8rem;
+   color: rgb(202, 190, 190);
+}
+h1 {  
+   margin-bottom: 3rem;
+   color: blanchedalmond;
+}
+h2{
+   margin-bottom: 0.5rem;
+   opacity: 0.6;
+   color: black;
+}
+@media(max-width : 700px) {
+   #time{
+      font-size: 5rem;
+   }
+}
+@media(max-width : 500px) {
+   #time{
+      font-size: 3rem;
+   }
+}
